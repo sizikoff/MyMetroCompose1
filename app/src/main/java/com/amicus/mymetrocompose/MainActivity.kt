@@ -55,6 +55,7 @@ fun imageZooming() {
     val context = LocalContext.current
     Surface {
         TopAppBar(title = {
+
             Text(text = stringResource(id = R.string.app_name))
         }, colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.primaryContainer,
             titleContentColor = MaterialTheme.colorScheme.secondary)
